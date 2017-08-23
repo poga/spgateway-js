@@ -1,0 +1,17 @@
+{
+  "name": "spgateway-js",
+  "version": "1.0.0",
+  "description": "Simple Spgateway API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spgateway"
+  ],
+  "author": "Poga Po<poga.po@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aes-js": "^3.1.0"
+  }
+}
