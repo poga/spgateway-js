@@ -23,7 +23,7 @@ var trade = sp.encrypt(KEY, IV, {
   Email: user.email,
   LoginType: 0,
   ReturnURL: '...',
-  NotifyURL: '...
+  NotifyURL: '...'
 })
 // trade = {TradeInfo: '...', TradeSha: '...'}
 
