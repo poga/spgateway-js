@@ -1,5 +1,8 @@
 # spgateway-js
 
+[![NPM Version](https://img.shields.io/npm/v/spgateway-js.svg)](https://www.npmjs.com/package/spgateway-js) [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+
 智付通信用卡付款 API
 
 `npm i --save spgateway-js`
