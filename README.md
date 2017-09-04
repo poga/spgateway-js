@@ -12,6 +12,7 @@
 ```js
 var sp = require('spgateway-js')
 
+// 產生傳送給智付通的參數
 var trade = sp.encrypt(KEY, IV, {
   MerchantID: SPGATEWAY_MERCHANT_ID,
   RespondType: 'JSON',
@@ -27,6 +28,7 @@ var trade = sp.encrypt(KEY, IV, {
 })
 // trade = {TradeInfo: '...', TradeSha: '...'}
 
+// 解開智付通回傳的資料
 var payload = sp.decrypt(KEY, IV, TradeInfo)
 ```
 
